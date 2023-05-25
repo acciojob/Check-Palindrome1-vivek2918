@@ -9,9 +9,9 @@ function palindrome(str){
 			return false;
 		}
 		i++;
-		J--;
+		j--;
 	}
 	return true;
 }
-alert(palindrome('abbababababababa'));
-module.exports = palindrome
+
+module.exports = palindrome;
