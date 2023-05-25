@@ -13,4 +13,5 @@ function palindrome(str){
 	}
 	return true;
 }
+alert(palindrome('abbababababababa'));
 module.exports = palindrome
